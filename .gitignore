@@ -48,12 +48,6 @@ nosetests.xml
 coverage.xml
 *.cover
 *.py,cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
 
 # Django stuff:
 *.log
@@ -103,12 +97,11 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+
 env/
 venv/
 ENV/
 env.bak/
-venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +120,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+data/
+data_output/
+
